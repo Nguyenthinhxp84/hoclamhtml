@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="profile" href="http://gmgp.org/xfn/11" />
+        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>Giới thiệu Thư viện</title>
+    </head>
+    
+    <body>  	
+
+        <div class="main">
+        	<div class="banner">
+			<img src="1.jpg">
+			</div>
+            <div class="nav">
+                <!-- Nav PC -->
+              <!--  <nav class="nav__pc">
+                    <ul class="nav__list">
+                       <li>
+                            <a href="./index.html" class="nav__link">Giới thiệu chung</a>
+                                
+                        </li>
+                        <li>
+                            <a href="./phongdaphuongtien.html" class="nav__link">Phòng Đa phương tiện</a>
+                        </li>
+                        <li>
+                            <a href="./phongtruyenthong.html" class="nav__link">Phòng Truyền thống</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 1</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 2</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 3</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 4</a>
+                        </li>
+
+                    </ul>
+                </nav> -->
+                <nav id='menu'>
+                  <ul>
+                    <li><a class='home' href='index.html'>Trang chủ</a></li>
+                    <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các phòng</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                        <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                        <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='home' href='sotaysinhvien.html'>Sổ tay sinh viên</a></li>
+                  </ul>
+                </nav>
+                <label for="nav--mobile-imput" class="nav__bars-btn">                
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>					
+                </label>
+
+               
+
+                <input type="checkbox"  hidden name="" class="nav__input" id="nav--mobile-imput">
+
+               	
+
+                <label for="nav--mobile-imput" class="nav__overlay"></label>
+
+                <nav class="nav__mobile">
+                	<label for="nav--mobile-imput" class="nav__mobile-close">                		
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                	</label>
+
+                            <ul>
+                    <li><a class='home' href='index.html'>Trang chủ</a></li>
+                    <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các phòng</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                        <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                        <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='home' href='sotaysinhvien.html'>Sổ tay sinh viên</a></li>
+                  </ul>
+                </nav>
+            </div>
+
+            <article>
+                
+                <p><strong><a>SỔ TAY SINH VIÊN 2021</a></strong></p>
+                <p>Trường Đại học Công nghiệp Thành phố Hồ Chí Minh ban hành Sổ tay Sinh viên năm 2021 (phiên bản điện tử) </br> </p> 
+
+                        
+                    <iframe src="http://opac.iuh.edu.vn/so-tay-sinh-vien"></iframe>
+                
+            </article>
+
+           <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Về tôi</h3>
+                                <p>Tốt nghiệp Trung cấp CNTT ngành quản trị máy tính nhưng tôi lại thích lập trình và thiết kê web, vì vậy tôi tạo ra trang web này để học tập và trao dồi kinh nghiệm về học làm web</p>
+                                <a href="index.html" class="readmore">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Chuyên mục</h3>
+                              <ul>
+                                    <li><a href="#">Nội quy trang web</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Liên hệ</h3>
+                                <p>Điện thoại: 0984458061 - 0332230984</p>
+                                <p>Email: nguyenthinhxp@gmail.com</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+  </body>
+</html>

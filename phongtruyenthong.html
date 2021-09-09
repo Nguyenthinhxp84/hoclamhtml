@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="profile" href="http://gmgp.org/xfn/11" />
+        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>Giới thiệu Thư viện</title>
+    </head>
+    
+    <body>      
+
+        <div class="main">
+            <div class="banner">
+            <img src="1.jpg">
+            </div>
+            <div class="nav">
+                <!-- Nav PC -->
+              <!--  <nav class="nav__pc">
+                    <ul class="nav__list">
+                       <li>
+                            <a href="./index.html" class="nav__link">Giới thiệu chung</a>
+                                
+                        </li>
+                        <li>
+                            <a href="./phongdaphuongtien.html" class="nav__link">Phòng Đa phương tiện</a>
+                        </li>
+                        <li>
+                            <a href="./phongtruyenthong.html" class="nav__link">Phòng Truyền thống</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 1</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 2</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 3</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 4</a>
+                        </li>
+
+                    </ul>
+                </nav> -->
+                <nav id='menu'>
+                  <ul>
+                    <li><a class='home' href='index.html'>Trang chủ</a></li>
+                    <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các phòng</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                        <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                        <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+                <label for="nav--mobile-imput" class="nav__bars-btn">                
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>                   
+                </label>
+
+               
+
+                <input type="checkbox"  hidden name="" class="nav__input" id="nav--mobile-imput">
+
+                
+
+                <label for="nav--mobile-imput" class="nav__overlay"></label>
+
+                <nav class="nav__mobile">
+                    <label for="nav--mobile-imput" class="nav__mobile-close">                       
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                    </label>
+
+                            <ul>
+                            <li><a class='home' href='index.html'>Trang chủ</a></li>
+                              <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                              <ul class='menus'>
+                                  <ul class='submenu'>
+                                    <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                                <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                              </ul>
+                            </li>
+                            <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                              <ul class='menus'>
+                                  <ul class='submenu'>
+                                    <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                                <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                </nav>
+            </div>
+
+            <article>
+                <h1>Trung tâm Thư viện Trường ĐH Công nghiệp TP. HCM</h1>
+                <p>– Tầm nhìn: Trở thành Trung tâm Thư viện hiện đại, đứng đầu trong hệ thống thư viện các trường Đại học thuộc Bộ Công Thương, ngang tầm với các thư viện đại học lớn trong nước và khu vực.</p>
+                <p>– Sứ mệnh: Cung cấp nguồn tài nguyên thông tin phong phú, đa dạng và chất lượng phục vụ công tác học tập, giảng dạy và nghiên cứu khoa học; Tạo ra các sản phẩm và dịch vụ thông tin – thư viện chất lượng cao góp phần tích cực vào việc nâng cao chất lượng đào tạo của Nhà trường.</p>
+                <img src="./1.jpg" alt="">
+                
+                <p><strong><a>1. Tổng quan</a></strong></p> 
+                <p>– Trung tâm Thư viện Trường Đại học Công nghiệp Thành phố Hồ Chí Minh được đặt tại vị trí nhà A, B, H (cơ sở chính). Thời gian phục vụ bạn đọc: Hằng ngày từ 06h30 đến 22h00;</p> 
+                <p>– Diện tích Thư viện là 2730 m2 với 1200 chỗ ngồi học; 14 phòng học nhóm và thảo luận chuyên đề; 3 phòng nghiên cứu dành cho các cán bộ, giảng viên, các chuyên gia nghiên cứu khoa học; 1 phòng đa phương tiện.</p> 
+                <p>– Thư viện có 193.612 tài liệu in ấn, 8 CSDL trực tuyến với hàng triệu tài liệu toàn văn, thư viện số với gần 20.000 tài liệu điện tử nội sinh (sách, luận văn, luận án, báo cáo, bài báo, tạp chí nghiên cứu), trang thông tin điện tử và mạng xã hội. </p>
+
+                <p><strong><a>Trong đó:</a></strong></p>
+                <p>+ Sách in tại cơ sở chính: 122.876 cuốn; phân hiệu Quảng Ngãi: 34.134 cuốn; cơ sở Thanh Hóa: 36.602 cuốn.</p>
+                <p>+ Bộ sưu tập số tiếng Anh, Việt: 120 bộ;</p>
+                <p>+ Báo – Tạp chí: 55 nhan đề; bài trích báo – tạp chí: 25.000 tài liệu;</p>
+                <p>+ Khoảng 30 nguồn học liệu mở. Nguồn học liệu Tiếng Việt: 10 nguồn; Tiếng Anh: 20 nguồn;</p>
+
+                <p><strong><a href="./phongtruyenthong.html">2. Phòng truyền thống</a></strong></p> 
+                <p>– Phòng truyền thống là nơi thể hiện sự phát triển của Nhà trường qua các thời kỳ; hoạt động đào tạo của Nhà trường qua 65 năm xây dựng và phát triển; hoạt động nghiên cứu khoa học và hợp tác quốc tế; các danh hiệu, huân chương, huy chương, bằng khen của Nhà trường được Đảng và Nhà nước trao tặng;</p> 
+                <p>– Thường xuyên mở cửa phục vụ khách tham quan; bồi dưỡng giá trị văn hóa truyền thống cho cán bộ, giảng viên, sinh viên; bồi dưỡng kiến thức, kỹ năng mềm cho sinh viên đang học tại trường; cũng là nơi diễn ra một số hoạt động quan trọng của Nhà trường: triễn lãm sách, sinh hoạt các tổ chức đoàn thể.</p> 
+
+                <p><strong><a href="./phongdaphuongtien.html">3. Phòng đa phương tiện</a></strong></p>
+                <p>– Phòng đa phương tiện bao gồm 80 máy tính cấu hình mạnh được đặt tại vị trí nhà A của Thư viện; phục vụ cho việc học tập trực tuyến, khai thác thông tin, truy cập thư viện số và sử dụng các cơ sở dữ liệu trực tuyến của Thư viện;<p>
+                <p>– Cán bộ phòng đa phương tiện còn giúp sinh viên đánh giá và tổng hợp thông tin, trau dồi kỹ năng nghiên cứu khi có sự yêu cầu trợ giúp.<p>
+
+            </article>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Về tôi</h3>
+                                <p>Tốt nghiệp Trung cấp CNTT ngành quản trị máy tính nhưng tôi lại thích lập trình và thiết kê web, vì vậy tôi tạo ra trang web này để học tập và trao dồi kinh nghiệm về học làm web</p>
+                                <a href="index.html" class="readmore">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Chuyên mục</h3>
+                              <ul>
+                                    <li><a href="#">Nội quy trang web</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Liên hệ</h3>
+                                <p>Điện thoại: 0984458061 - 0332230984</p>
+                                <p>Email: nguyenthinhxp@gmail.com</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+  </body>
+</html>

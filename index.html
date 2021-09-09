@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="profile" href="http://gmgp.org/xfn/11" />
+        <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>Giới thiệu Thư viện</title>
+    </head>
+    
+    <body>  	
+
+        <div class="main">
+        	<div class="banner">
+			<img src="1.jpg">
+			</div>
+            <div class="nav">
+                <!-- Nav PC -->
+              <!--  <nav class="nav__pc">
+                    <ul class="nav__list">
+                       <li>
+                            <a href="./index.html" class="nav__link">Giới thiệu chung</a>
+                                
+                        </li>
+                        <li>
+                            <a href="./phongdaphuongtien.html" class="nav__link">Phòng Đa phương tiện</a>
+                        </li>
+                        <li>
+                            <a href="./phongtruyenthong.html" class="nav__link">Phòng Truyền thống</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 1</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 2</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 3</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav__link">Giới thiệu Kho 4</a>
+                        </li>
+
+                    </ul>
+                </nav> -->
+                <nav id='menu'>
+                  <ul>
+                    <li><a class='home' href='index.html'>Trang chủ</a></li>
+                    <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các phòng</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                        <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                      <ul class='menus'>
+                          <ul class='submenu'>
+                            <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                          </ul>
+                        </li>
+                        <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                        <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                      </ul>
+                    </li>
+                    <li><a class='home' href='sotaysinhvien.html'>Sổ tay sinh viên</a></li>
+                    <li><a class='home' href='tintuc.html'>Tin tức Giáo dục</a></li>
+
+                  </ul>
+                </nav>
+                <label for="nav--mobile-imput" class="nav__bars-btn">                
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>					
+                </label>
+
+               
+
+                <input type="checkbox"  hidden name="" class="nav__input" id="nav--mobile-imput">
+
+               	
+
+                <label for="nav--mobile-imput" class="nav__overlay"></label>
+
+                <nav class="nav__mobile">
+                	<label for="nav--mobile-imput" class="nav__mobile-close">                		
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                	</label>
+
+                            <ul>
+                                <li><a class='home' href='index.html'>Trang chủ</a></li>
+                            <li><a class='home' href='gioithieuchung.html'>Giới thiệu chung</a></li>
+                            <li><a class='prett' href='#' title='Menu'>Giới thiệu các phòng</a>
+                              <ul class='menus'>
+                                  <ul class='submenu'>
+                                    <li><a href="#" title="Sub Menu">Phòng Nghiệp vụ</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href='#' title='Dropdown 2'>Phòng Đa phương tiện</a></li>
+                                <li><a href='#' title='Dropdown 3'>Phòng truyền thống</a></li>
+                              </ul>
+                            </li>
+                            <li><a class='prett' href='#' title='Menu'>Giới thiệu các kho</a>
+                              <ul class='menus'>
+                                  <ul class='submenu'>
+                                    <li><a href="#" title="Sub Menu">Kho 1</a></li>
+                                  </ul>
+                                </li>
+                                <li><a href='#' title='Dropdown 2'>Kho 2 </a></li>
+                                <li><a href='#' title='Dropdown 3'>Kho 3</a></li>
+                              </ul>
+                            </li>
+                            <li><a class='home' href='sotaysinhvien.html'>Sổ tay sinh viên</a></li>
+                            <li><a class='home' href='tintuc.html'>Tin tức Giáo dục</a></li>
+                          </ul>
+                </nav>
+            </div>
+
+            <article>
+                
+                <p><strong><a>1. Tổng quan</a></strong></p> 
+                        
+                <p>Tiền thân của Trường Đại học Công nghiệp thành phố Hồ Chí Minh là Trường Huấn nghiệp Gò Vấp do các tu sĩ dòng Don Bosco thành lập 11/11/1956 tại xã Hạnh Thông, Quận Gò Vấp, Tỉnh Gia Định. Năm 1968, Trường được đổi tên thành Trường tư thục Trung học Kỹ thuật đệ nhất cấp Don Bosco. Đến ngày 31/01/1970, Trường được cải biên thành Trường tư thục Trung học Kỹ thuật đệ nhị cấp Don Bosco, được gọi tắt là Trường Trung học Kỹ thuật Don Bosco. Sau ngày hòa bình, thống nhất đất nước, quân giải phóng miền Nam tiếp quản và ngày 19/12/1975 Trường được bàn giao cho Tổng cục Cơ khí Luyện kim và Điện tử. Năm 1978, Trường được đổi tên thành Trường Công nhân Kỹ thuật IV trực thuộc Bộ Cơ khí và Luyện kim. Đến năm 1994, Trường hợp nhất với Trường Trung học Hóa chất II tại thành phố Biên Hòa thành Trường Trung học Kỹ thuật Công nghiệp IV, trực thuộc Bộ Công Nghiệp. Tháng 3 năm 1999, Trường được nâng cấp thành Trường Cao đẳng Công nghiệp IV và tháng 12 năm 2004, Trường được nâng cấp thành Trường Đại học Công nghiệp thành phố Hồ Chí Minh theo quyết định số 214/2004/QĐ - TTg của Thủ tướng Chính phủ và Trường được Thủ tưởng Chính phủ phê duyệt thí điểm đổi mới cơ chế hoạt động giai đoạn 2015-2017 theo quyết định số 902/QĐ-TTg ngày 23 tháng 6 năm 2015, bắt đầu thực hiện từ năm học 2015 - 2016. Trường Đại học Công nghiệp thành phố Hồ Chí Minh là một trong những cơ sở giáo dục đại học lớn tại Việt Nam.</br>
+                                                                                    </br>
+
+                    Trường có các phân hiệu và cơ sở đào tạo:</br></br>
+
+
+                        <b> Cơ sở chính (TP.HCM):</b></br></br>
+
+                        - Địa chỉ: 12 Nguyễn Văn Bảo, P.4, Q. Gò Vấp, TP.HCM</br>
+                        - Điện thoại: (028) 38940390 Fax: (028) 38946268</br>
+                        - Website: www.iuh.edu.vn</br>
+                        - Email:</br>
+                        Trường Đại học Công nghiệp thành phố Hồ Chí Minh: dhcn@iuh.edu.vn</br>
+                        Phòng Tổ chức - Hành chính: ptchc@iuh.edu.vn</br>
+                        Phòng Tài chính - Kế toán: ptckt@iuh.edu.vn</br>
+                        Phòng Đào tạo: phongdaotao@iuh.edu.vn</br>
+                        Bộ phận Tuyển sinh: tuyensinh@iuh.edu.vn</br></br>
+
+                       <b> Phân hiệu Quảng Ngãi:</b></br></br>
+
+                        - Địa chỉ: 938 Quang Trung, TP. Quảng Ngãi</br>
+                        - Điện thoại:(0255) 3250075, (0255) 3713858 - Fax: (0255) 3713858</br>
+                        - Website: http://www.qn.iuh.edu.vn</br></br>
+
+                       <b> Cơ sở Thanh Hóa:</b></br></br>
+
+                        - Địa chỉ: Xã Quảng Tâm, TP. Thanh Hóa, Tỉnh Thanh Hóa</br>
+                        - Điện thoại: (0237) 3675092 - Fax: (0237) 3675350</br>
+                        - Website: http://www.th.iuh.edu.vn</br>
+                </p> 
+                
+            </article>
+
+            <article1>   
+              
+                <iframe width="1150px" height="450px" src="https://www.youtube.com/embed/cGz2a7ccAs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br></br> 
+
+                <p>Bên cạnh việc chú trọng nâng cao chất lượng chuyên môn của đội ngũ cán bộ - giảng viên, đầu tư trang thiết bị tốt nhất cho giảng dạy, học tập và nghiên cứu khoa học, Nhà trường còn quan tâm tới việc cung cấp các dịch vụ đào tạo có chất lượng cao cho hàng chục ngàn sinh viên từ khắp mọi miền trong cả nước. Sinh viên của Trường được trang bị năng lực ngoại ngữ và tin học cũng như các kiến thức bổ trợ: kỹ năng giao tiếp, ứng xử, kỹ năng làm chủ bản thân, kỹ năng quản lý thời gian, kỹ năng làm việc nhóm, phương pháp tự học, phương pháp nghiên cứu khoa học... Nhờ vào mối quan hệ gắn kết giữa Nhà trường và doanh nghiệp, sinh viên luôn có cơ hội thực hành tại các cơ sở sản xuất, kinh doanh, dịch vụ, đặc biệt tại các công ty, xí nghiệp có vốn đầu tư nước ngoài để tận mắt chứng kiến các công nghệ mới được ứng dụng trong sản xuất nhằm rèn luyện các kỹ năng thực tiễn và năng lực làm việc trong môi trường hiện đại.</p>         
+               
+            </article1>
+
+           <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Về tôi</h3>
+                                <p>Tốt nghiệp Trung cấp CNTT ngành quản trị máy tính nhưng tôi lại thích lập trình và thiết kê web, vì vậy tôi tạo ra trang web này để học tập và trao dồi kinh nghiệm về học làm web</p>
+                                <a href="index.html" class="readmore">Xem thêm</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Chuyên mục</h3>
+                              <ul>
+                                    <li><a href="#">Nội quy trang web</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="block-footer">
+                                <h3>Liên hệ</h3>
+                                <p>Điện thoại: 0984458061 - 0332230984</p>
+                                <p>Email: nguyenthinhxp@gmail.com</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+  </body>
+</html>
